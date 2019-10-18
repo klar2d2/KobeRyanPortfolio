@@ -19,10 +19,22 @@ h2 {
   font-family: 'Vollkorn SC', serif;
 }
 
+.footer {
+  display: inline-block;
+}
+
+.tech {
+  display: inline-block;
+  word-spacing: 15px;
+}
+
 a, a:hover {
-  
   color: black;
   text-decoration: none;
+}
+
+.anchor {
+  margin: auto;
 }
 
 .navbar {
@@ -61,6 +73,7 @@ a, a:hover {
 }
 
 .five {
+  text-align: center;
   grid-area: five;
   background-color: #ddd;
   border: 10px solid black;
@@ -69,7 +82,19 @@ a, a:hover {
   grid-area: six;
   background-color: #ddd;
   border: 10px solid black;
+  position: relative;
 }
+
+.six-link {
+  padding-top: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 40 40;
+  transform: rotate(90deg);
+
+}
+
 .seven {
   grid-area: seven;
   background-color: #3123ad;
