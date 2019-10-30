@@ -1,4 +1,5 @@
 body {
+    background-color: black;
   font-family: 'Roboto Mono', monospace;
   margin: 0;
   height: 100vh;
@@ -17,6 +18,11 @@ body {
 
 h2 {
   font-family: 'Vollkorn SC', serif;
+}
+
+.anchor-left {
+  transform: rotate(270deg);
+  transform-origin: 0;
 }
 
 .footer {
@@ -64,12 +70,17 @@ a, a:hover {
   grid-area: three;
   background-color: #ddd;
   border: 10px solid black;
+  writing-mode: vertical-lr;
+  text-align: center;
 }
 
 .four {
   grid-area: four;
   background-color: #ddd;
   border: 10px solid black;
+  writing-mode: vertical-lr;
+  text-align: center;
+  position: relative;
 }
 
 .five {
@@ -79,20 +90,12 @@ a, a:hover {
   border: 10px solid black;
 }
 .six {
+  justify-content: space-around;
+  text-align: center;
   grid-area: six;
   background-color: #ddd;
   border: 10px solid black;
-  position: relative;
-}
-
-.six-link {
-  padding-top: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform-origin: 40 40;
-  transform: rotate(90deg);
-
+  writing-mode: vertical-lr;
 }
 
 .seven {
