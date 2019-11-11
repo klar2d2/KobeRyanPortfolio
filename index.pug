@@ -1,0 +1,32 @@
+doctype html
+html
+  head
+    title Kobe Ryan | Portfolio
+    link(href="https://fonts.googleapis.com/css?family=Roboto+Mono|Vollkorn+SC&display=swap" rel="stylesheet")
+    link(rel='stylesheet', href='../css/style.css')
+  body
+    div.one
+      div.title
+        h2 Kobe Ryan: Fullstack Developer
+    nav.two
+      a.anchor(id='about-me', href='#', onclick='handleClick()') About Me
+      a(class='anchor', href="../resume.pdf") Resume
+      a(class='anchor', id='contact', href="#", onclick='handleClick()') Contact
+    div.three
+      a(id='met-museum',href="#", onclick='handleClick()') Met Museum Artwork Organizer
+    div.four
+      a(class='anchor-left', id='inkline', href="#", onclick='handleClick()') Inkline
+    div.five
+      h2#center-head About Me
+      p#center-para Full-stack Developer with a knack for producing ideas and collaborating.
+      a#center-link
+    div.six
+      a(id='shoe-lace-simulator', href="#", onclick='handleClick()') Shoe-Lace Simulator
+    div.seven
+      a(id='munch-my-lawn', href="#", onclick='handleClick()')  Munch My Lawn
+    div.eight
+      h2.footer Technologies:
+      h3.tech TypeScript, JavaScript, React, Python, SASS
+    a(class='nine', href='https://www.piet-mondrian.org/')
+  script(src='../js/script.js')
+  script(src='anime.min.js')

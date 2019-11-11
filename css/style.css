@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+  background-color: black;
   font-family: 'Roboto Mono', monospace;
   margin: 0;
   height: 100vh;
@@ -102,6 +102,10 @@ a, a:hover {
   grid-area: seven;
   background-color: #3123ad;
   border: 10px solid black;
+  writing-mode: vertical-lr;
+  justify-content: space-around;
+  text-align: center;
+
 }
 .eight {
   grid-area: eight;
