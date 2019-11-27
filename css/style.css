@@ -41,6 +41,11 @@ a, a:hover {
 
 .anchor {
   margin: auto;
+  transition-duration: .5s
+}
+
+.anchor:hover {
+  transform: translateY(-5px)
 }
 
 .navbar {
@@ -72,6 +77,7 @@ a, a:hover {
   border: 10px solid black;
   writing-mode: vertical-lr;
   text-align: center;
+  transition: border .5s;
 }
 
 .four {
@@ -81,6 +87,7 @@ a, a:hover {
   writing-mode: vertical-lr;
   text-align: center;
   position: relative;
+  transition: border .5s;
 }
 
 .five {
@@ -96,6 +103,7 @@ a, a:hover {
   background-color: #ddd;
   border: 10px solid black;
   writing-mode: vertical-lr;
+  transition: border .5s;
 }
 
 .seven {
@@ -105,8 +113,9 @@ a, a:hover {
   writing-mode: vertical-lr;
   justify-content: space-around;
   text-align: center;
-
+  transition: border .5s;
 }
+
 .eight {
   grid-area: eight;
   background-color: #ddd;
@@ -117,4 +126,9 @@ a, a:hover {
   grid-area: nine;
   background-color: #ff450d;
   border: 10px solid black;
+  transition: border .5s;
+}
+
+.three:hover, .four:hover, .six:hover, .seven:hover, .nine:hover {
+  border: 5px solid black;
 }

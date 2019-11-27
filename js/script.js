@@ -18,21 +18,25 @@ function handleClick() {
   if (subject === 'met-museum') {
     centerHead.innerHTML = 'Met Museum Artwork Organizer',
     centerPara.innerHTML = 'An idea I came up with working at the Seattle Art Museum, this app allows you to look up your favorite art from the MET&#39s archives, collect your favorites into a personal list, and see if they are currently on display. Noteable technologies are Express.js, Node.js and JavaScript.'
-    centerLink.innerHTML = 'https://met-collection-creator.herokuapp.com/'
+    centerLink.href = 'https://met-collection-creator.herokuapp.com/'
+    centerLink.innerHTML = 'Link'
   }
   if (subject === 'shoe-lace-simulator') {
     centerHead.innerHTML = 'Shoe Lace Simulator',
     centerPara.innerHTML = 'Inspired by the frustration of games like QWOP and Getting Over It with Bennett Foddy, I implemented a basic shoe tying simulator. Notabele technologies user are Phaser.io, HTML, CSS'
-    centerLink.innerHTML = 'https://klar2d2.github.io/shoe-project/'
+    centerLink.href = 'https://klar2d2.github.io/shoe-project/'
+    centerLink.innerHTML = 'Link'
   }
   if (subject === 'inkline') {
     centerHead.innerHTML = 'Inkline',
     centerPara.innerHTML = 'My first group project, Inkline is an app that connects with Facebook Oauth and grabs images off of our user&#39s Instagram to display. Noteable technologies used were TypeScript, Facebook Oauth and Material-UI'
-    centerLink.innerHTML = 'https://inkline-gtol.herokuapp.com/'
+    centerLink.href = 'https://inkline-gtol.herokuapp.com/'
+    centerLink.innerHTML = 'Link'
   }
   if (subject === 'munch-my-lawn') {
     centerHead.innerHTML = 'Munch My Lawn',
     centerPara.innerHTML = 'Originating as a group project to practice Socket.io, Munch My Lawn is a CMS to connect homeowners to goats, skipping the hassle of a middle man farmer. Notable technologies used were React,Socket and SASS.'
-    centerLink.innerHTML = 'https://munchmylawn.herokuapp.com/'
+    centerLink.href = 'https://munchmylawn.herokuapp.com/'
+    centerLink.innerHTML = 'Link'
   }
 }
