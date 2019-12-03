@@ -1,16 +1,19 @@
 let centerHead = document.getElementById('center-head')
 let centerPara = document.getElementById('center-para')
 let centerLink = document.getElementById('center-link')
+let centerImg = document.getElementById('center-image')
 
 function handleClick() {
   let subject = event.target.id
   if (subject === 'contact') {
     centerHead.innerHTML =  'Contact',
     centerPara.innerHTML = 'The best way to contact me is via email at koberyan@comcast.net. Always happy to chat!'
+    enterImg.style = 'visibility:hidden'
   }
   if (subject === 'about-me') {
     centerHead.innerHTML =  'About Me',
     centerPara.innerHTML = 'Fullstack Developer with a knack for producing ideas and collaborating.'
+    centerImg.style = 'visibility:hidden'
   }
   if (subject === 'resume') {
 
@@ -18,14 +21,17 @@ function handleClick() {
   if (subject === 'met-museum') {
     centerHead.innerHTML = 'Met Museum Artwork Organizer',
     centerPara.innerHTML = 'An idea I came up with working at the Seattle Art Museum, this app allows you to look up your favorite art from the MET&#39s archives, collect your favorites into a personal list, and see if they are currently on display. Noteable technologies are Express.js, Node.js and JavaScript.'
+    centerImg.src = '../public/met.png'
+    centerImg.style = 'visibility:visible'
+    centerImg.alt = 'artwork'
     centerLink.href = 'https://met-collection-creator.herokuapp.com/'
-    centerLink.innerHTML = 'Link'
   }
   if (subject === 'shoe-lace-simulator') {
     centerHead.innerHTML = 'Shoe Lace Simulator',
     centerPara.innerHTML = 'Inspired by the frustration of games like QWOP and Getting Over It with Bennett Foddy, I implemented a basic shoe tying simulator. Notabele technologies user are Phaser.io, HTML, CSS'
+    centerImg.style = 'visibility:visible'
+    centerImg.alt = 'shoelace simulator'
     centerLink.href = 'https://klar2d2.github.io/shoe-project/'
-    centerLink.innerHTML = 'Link'
   }
   if (subject === 'inkline') {
     centerHead.innerHTML = 'Inkline',

@@ -41,11 +41,18 @@ a, a:hover {
 
 .anchor {
   margin: auto;
-  transition-duration: .5s
+  transition-duration: .5s;
+}
+
+#center-image {
+  visibility: hidden;
+  border:0;
+  height: 60%;
+  width: 80%;
 }
 
 .anchor:hover {
-  transform: translateY(-5px)
+  transform: translateY(-5px);
 }
 
 .navbar {
