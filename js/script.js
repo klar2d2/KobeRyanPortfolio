@@ -36,13 +36,14 @@ function handleClick() {
   if (subject === 'inkline') {
     centerHead.innerHTML = 'Inkline',
     centerPara.innerHTML = 'My first group project, Inkline is an app that connects with Facebook Oauth and grabs images off of our user&#39s Instagram to display. Noteable technologies used were TypeScript, Facebook Oauth and Material-UI'
+    centerImg.style = 'visibility:visible'
     centerLink.href = 'https://inkline-gtol.herokuapp.com/'
-    centerLink.innerHTML = 'Link'
   }
   if (subject === 'munch-my-lawn') {
     centerHead.innerHTML = 'Munch My Lawn',
     centerPara.innerHTML = 'Originating as a group project to practice Socket.io, Munch My Lawn is a CMS to connect homeowners to goats, skipping the hassle of a middle man farmer. Notable technologies used were React,Socket and SASS.'
+    centerImg.src = ''
+    centerImg.style = 'visibility:visible'
     centerLink.href = 'https://munchmylawn.herokuapp.com/'
-    centerLink.innerHTML = 'Link'
   }
 }
