@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "https://klar2d2.github.io/KobeRyanPortfolio/",
+  "description": "https://klar2d2.github.io/KobeRyanPortfolio/html/index.html",
   "main": "index.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
