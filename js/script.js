@@ -2,7 +2,6 @@ let centerHead = document.getElementById('center-head')
 let centerPara = document.getElementById('center-para')
 let centerLink = document.getElementById('center-link')
 let centerImg = document.getElementById('center-image')
-let envir = 'https://klar2d2.github.io/KobeRyanPortfolio/'
 
 function handleClick() {
   let subject = event.target.id
@@ -22,7 +21,7 @@ function handleClick() {
   if (subject === 'met-museum') {
     centerHead.innerHTML = 'Met Museum Artwork Organizer',
     centerPara.innerHTML = 'An idea I came up with working at the Seattle Art Museum, this app allows you to look up your favorite art from the MET&#39s archives, collect your favorites into a personal list, and see if they are currently on display. Noteable technologies are Express.js, Node.js and JavaScript.'
-    centerImg.src = envir + '/public/met.png'
+    centerImg.src = '../public/met.png'
     centerImg.style = 'visibility:visible'
     centerImg.alt = 'artwork'
     centerLink.href = 'https://met-collection-creator.herokuapp.com/'
