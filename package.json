@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "https://klar2d2.github.io/KobeRyanPortfolio/",
-  "main": "index.js",
+  "main": "index.pug",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/klar2d2/KobeRyanPortfolio/issues"
   },
-  "homepage": "https://github.com/klar2d2/KobeRyanPortfolio#readme"
+  "homepage": "https://github.com/klar2d2/KobeRyanPortfolio"
 }
