@@ -8,7 +8,7 @@ function handleClick() {
   if (subject === 'contact') {
     centerHead.innerHTML =  'Contact',
     centerPara.innerHTML = 'The best way to contact me is via email at koberyan@comcast.net. Always happy to chat!'
-    enterImg.style = 'visibility:hidden'
+    centerImg.style = 'visibility:hidden'
   }
   if (subject === 'about-me') {
     centerHead.innerHTML =  'About Me',
@@ -29,6 +29,7 @@ function handleClick() {
   if (subject === 'shoe-lace-simulator') {
     centerHead.innerHTML = 'Shoe Lace Simulator',
     centerPara.innerHTML = 'Inspired by the frustration of games like QWOP and Getting Over It with Bennett Foddy, I implemented a basic shoe tying simulator. Notabele technologies user are Phaser.io, HTML, CSS'
+    centerImg.src = '../public/shoolace.png'
     centerImg.style = 'visibility:visible'
     centerImg.alt = 'shoelace simulator'
     centerLink.href = 'https://klar2d2.github.io/shoe-project/'
@@ -36,14 +37,17 @@ function handleClick() {
   if (subject === 'inkline') {
     centerHead.innerHTML = 'Inkline',
     centerPara.innerHTML = 'My first group project, Inkline is an app that connects with Facebook Oauth and grabs images off of our user&#39s Instagram to display. Noteable technologies used were TypeScript, Facebook Oauth and Material-UI'
+    centerImg.src = '../public/inline.png'
     centerImg.style = 'visibility:visible'
+    centerImg.alt = 'Inkline'
     centerLink.href = 'https://inkline-gtol.herokuapp.com/'
   }
   if (subject === 'munch-my-lawn') {
     centerHead.innerHTML = 'Munch My Lawn',
     centerPara.innerHTML = 'Originating as a group project to practice Socket.io, Munch My Lawn is a CMS to connect homeowners to goats, skipping the hassle of a middle man farmer. Notable technologies used were React,Socket and SASS.'
-    centerImg.src = ''
+    centerImg.src = '../public/munchy.png'
     centerImg.style = 'visibility:visible'
+    centerImg.alt = 'Munch My Lawn'
     centerLink.href = 'https://munchmylawn.herokuapp.com/'
   }
 }
