@@ -7,7 +7,7 @@ function handleClick() {
   let subject = event.target.id
   if (subject === 'contact') {
     centerHead.innerHTML =  'Contact',
-    centerPara.innerHTML = 'The best way to contact me is via email at koberyan@comcast.net. Always happy to chat!'
+    centerPara.innerHTML = 'The best way to contact me is via email at koberyan@comcast.net or via phone at 425 305 7337. Always happy to chat!'
     centerImg.style = 'visibility:hidden'
   }
   if (subject === 'about-me') {
