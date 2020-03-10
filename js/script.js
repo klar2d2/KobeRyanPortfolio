@@ -23,7 +23,6 @@ function handleClick() {
     centerPara.innerHTML = 'An idea I came up with working at the Seattle Art Museum, this app allows you to look up your favorite art from the MET&#39s archives, collect your favorites into a personal list, and see if they are currently on display. Noteable technologies are Express.js, Node.js and JavaScript.'
     centerImg.src = '../public/met.png'
     centerImg.style = 'visibility:visible;'
-    centerImg.style = 'width: 60%;'
     centerImg.alt = 'artwork'
     centerLink.href = 'https://met-collection-creator.herokuapp.com/'
   }
@@ -40,7 +39,6 @@ function handleClick() {
     centerPara.innerHTML = 'My first group project, Inkline is an app that connects with Facebook Oauth and grabs images off of our user&#39s Instagram to display. Noteable technologies used were TypeScript, Facebook Oauth and Material-UI'
     centerImg.src = '../public/inline.png'
     centerImg.style = 'visibility:visible;'
-    centerImg.style = 'width: 80%;'
     centerImg.alt = 'Inkline'
     centerLink.href = 'https://inkline-gtol.herokuapp.com/'
   }
@@ -49,7 +47,6 @@ function handleClick() {
     centerPara.innerHTML = 'Originating as a group project to practice Socket.io, Munch My Lawn is a CMS to connect homeowners to goats, skipping the hassle of a middle man farmer. Notable technologies used were React,Socket and SASS.'
     centerImg.src = '../public/munchy.png'
     centerImg.style = 'visibility:visible;'
-    centerImg.style = 'width:80%;'
     centerImg.alt = 'Munch My Lawn'
     centerLink.href = 'https://munchmylawn.herokuapp.com/'
   }
