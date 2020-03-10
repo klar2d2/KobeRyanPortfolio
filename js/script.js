@@ -32,7 +32,6 @@ function handleClick() {
     centerPara.innerHTML = 'Inspired by the frustration of games like QWOP and Getting Over It with Bennett Foddy, I implemented a basic shoe tying simulator. Notabele technologies user are Phaser.io, HTML, CSS'
     centerImg.src = '../public/shoolace.png'
     centerImg.style = 'visibility:visible;'
-    centerImg.style = 'width: 60%;'
     centerImg.alt = 'shoelace simulator'
     centerLink.href = 'https://klar2d2.github.io/shoe-project/'
   }
