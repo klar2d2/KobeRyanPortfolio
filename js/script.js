@@ -12,7 +12,7 @@ function handleClick() {
   }
   if (subject === 'about-me') {
     centerHead.innerHTML =  'About Me',
-    centerPara.innerHTML = 'Fullstack Developer with a knack for producing ideas and collaborating.'
+    centerPara.innerHTML = 'Fullstack Developer with a knack for producing ideas and collaborating. Click on the projects around the border to get to know a bit more about my work.'
     centerImg.style = 'visibility:hidden'
   }
   if (subject === 'resume') {
